@@ -1,5 +1,12 @@
+<<<<<<< HEAD
 """Snake,classic arcade game.
 Exercises:
+=======
+"""Snake, classic arcade game.
+
+Exercises
+
+>>>>>>> 89d71b524aa029f6cd4fa825a61210e7ab66f5cb
 1. How do you make the snake faster or slower?
 2. How can you make the snake go around the edges?
 3. How would you move the food?
@@ -7,8 +14,13 @@ Exercises:
 """
 
 from random import randrange
+<<<<<<< HEAD
 from turtle import setup, hideturtle, tracer, listen, onkey
 from turtle import done, update, clear, ontimer
+=======
+from turtle import *
+
+>>>>>>> 89d71b524aa029f6cd4fa825a61210e7ab66f5cb
 from freegames import square, vector
 
 food = vector(0, 0)
